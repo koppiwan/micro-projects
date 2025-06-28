@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #2f501d;
+    margin-bottom: 4px;
+}
+
+button {
+    background: #689e49;
+    color: white;
+    padding: 10px 20px;
+    border: 1px;
+    font-weight: bold;
+}
+
+
+ul{
+    margin-top: 20px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li{
+   margin-top: 5px;
+}
+
+li a{
+    color: #689e49;
+}
+
+#delete-btn {
+    color: #568a3a;
+    background-color: white;
+    border: 1.5px solid #568a3a;
+}
