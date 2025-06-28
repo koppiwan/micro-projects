@@ -1,0 +1,39 @@
+body {
+    
+    font-family : 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("download (1).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(240, 210, 135);
+   
+}
+
+p{
+    font-family : 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(3, 3, 3);
+    font-weight: bold;
+}
+   
+
+#msg-el {
+    font-style: italic;
+}
+
+
+button{
+    width: 200px;
+    height: 30px;
+    background-color: crimson;
+    color: azure;
+    border: none;
+    display: block;
+    margin: 10px auto;
+
+    
+}
