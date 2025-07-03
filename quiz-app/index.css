@@ -1,5 +1,6 @@
 html{
     font-size: 62.5%;
+    
 }
 
 body{
@@ -26,12 +27,14 @@ body{
 
 
 .head-text{
+    text-align: center;
     margin: 0;
     font-size:4.0rem;
     color: rgb(245, 129, 62);
 }
 
 .sub-text{
+    text-align: center;
     margin: 0;
     font-size:1.5rem;
     font-weight:500;
@@ -132,9 +135,6 @@ body{
   
 }
 
-
-
-
 .ans{
     
     text-align: center;
@@ -144,17 +144,20 @@ body{
     font-size: 1.3rem;
 }
 
-.ans.true{
-    color: rgba(30, 167, 30, 0.719);
+.option.true{
+    background-color: rgb(169, 255, 169);
+    border-color: rgb(123, 190, 123);
 }
 
 
+.option.false{    
+    background-color: rgb(255, 202, 202);
+    border-color: rgb(221, 126, 126);
+}
 
-
-
-
-
-
+.disabled {
+  opacity: 0.6;
+}
 
 .progress{
     border-radius: 1em;
@@ -164,7 +167,6 @@ body{
     background-color: rgb(245, 129, 62);
 
 }
-
 
 .progress-bar {
     margin: .1em;
@@ -176,9 +178,7 @@ body{
 }
 
 
-
 /* END - PAGE [3] */
-
 
 .end-pg{
     border-radius: 1.6em;
