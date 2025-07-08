@@ -98,6 +98,8 @@ function checkAnswer(selectedOption) {
         selectedOption.classList.add("true");
         score++;
         document.querySelector(".score span").textContent = score;
+        document.querySelector(".marks").textContent = score;
+
     }else {
         selectedOption.classList.add("false");
 
@@ -126,13 +128,19 @@ function checkAnswer(selectedOption) {
 
             setTimeout(function(){
               document.querySelector(".qna-pg").classList.remove("active");
-                document.querySelector(".end-pg").classList.add("active");   
-            },1000);
+              document.querySelector(".end-pg").classList.add("active");   
+            }
             
+            
+   
+            
+             
+            
+            ,1000);
+           
         }
 
-       
-
+     
     }, 
     
     500);
@@ -162,6 +170,16 @@ function updateProgressBar(){
 }
 
 
+//end page results //
 
 
+const end_btn = document.getElementById("end-btn");
+
+function selectEndpg() {
+    
+    document.querySelector(".end-pg").classList.remove("active")
+    document.querySelector(".start-pg").classList.add("active")
+   
+}
+end_btn.addEventListener("click" ,selectEndpg );
 
