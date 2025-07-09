@@ -1,0 +1,143 @@
+html{
+    font-size: 62.5%;
+    
+}
+
+body{
+    font-family: 'Poppins';
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.mainbox{
+    
+    margin: 3em;
+    
+    gap: 4em;
+    display: grid;
+}
+
+.header{
+    
+    gap: 10em;
+
+}
+
+
+
+h1{
+    text-align: center;
+    margin: 0 auto;
+    font-size:3rem;
+    color: rgb(51, 64, 92);
+}
+
+.btn{
+    
+    border: none;
+    color: white;
+    background:linear-gradient(45deg,#725ec7,#85499c);
+    font-weight: 500;
+    font-family: 'Poppins';
+    margin: 0 auto;
+    border-radius: 10em;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    padding-left: 2em;
+    padding-right: 2em;
+
+}
+
+.boxes{
+    margin-top: 3em;
+    display: flex;
+    gap: 2em;
+
+}
+
+svg{
+    height: 2em;
+    width: 2em;
+}
+
+p{
+    
+    font-size: small;
+    font-weight: 600;
+    margin: 0;
+
+}
+
+.content{
+    box-sizing: border-box;
+    padding: 1.1em;
+    height: 3.5em;
+    border-radius: 1.0em;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: white;
+}
+
+
+
+
+
+
+.box1{
+    overflow: hidden;
+    display:flex;
+    flex-direction: column;
+    width: 12em;
+    height: 12em;
+    padding: 1em;
+    margin: 0 auto;
+    border-radius: 0.7em;
+    background-color: #725ec7;
+}
+
+.box2{
+    display:grid;
+    width: 12em;
+    height: 12em;
+    padding: 1em;
+   
+    margin: 0 auto;
+    border-radius: 0.7em;
+    background-color: #1b182b;
+}
+
+.box3{
+    display:grid;
+    width: 12em;
+    height: 12em;
+    padding: 1em;
+   
+    margin: 0 auto;
+    border-radius: 0.7em;
+    background-color: #1b182b;
+}
+
+.box4{
+    display:grid;
+    width: 12em;
+    height: 12em;
+    padding: 1em;
+   
+    margin: 0 auto;
+    border-radius: 0.7em;
+    background-color: #1b182b;
+}
+
+.box5{
+    display:grid;
+    width: 12em;
+    height: 12em;
+    padding: 1em;
+   
+    margin: 0 auto;
+    border-radius: 0.7em;
+    background-color: #1b182b;
+}
